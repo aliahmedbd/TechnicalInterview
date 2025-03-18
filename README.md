@@ -12,7 +12,7 @@ You are tasked with building an account overview and transaction management appl
 
 
 ***Requirements:***
-* **Architecture**: Follow an architecture such as MVI or MVVM for the implementation.
+* **Architecture**: Follow an architecture such as **MVI** or **MVVM** for the implementation.
 * **Unit Testing**: Write unit tests, primarily for testing the ViewModel.
 * **Asynchronous** Programming: Use Coroutines and Flows for managing asynchronous tasks and data flow.
 * **Performance**: Optimize the application for fast and efficient performance.
@@ -23,8 +23,8 @@ You are tasked with building an account overview and transaction management appl
 * **Simplicity**: Keep the design and implementation as simple as possible while fulfilling all the functional requirements.
   
 **Notes:**
-- Please feel free to use the internet but not any AI tools.
-- Create a branch from the main branch and name it "develop-(name)", add as many as commits you want and after finishing the development please push your changes.
+- Please feel free to use the internet but **not any AI tools**.
+- Create a branch from the main branch and name it "**develop-(name)**", add as many as commits you want and after finishing the development please push your changes.
 - Feel free to ask us anything
 
 
