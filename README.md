@@ -17,7 +17,7 @@ Endpoint: https://dd28b8de-0a7e-4a8d-b5d4-8f25f5a35069.mock.pstmn.io/accounts/AC
 TYPE: GET
 response: 
 
-`
+```json
 {
     "period": "latest",
     "balance": {
@@ -101,7 +101,7 @@ response: 
         }
     ]
 }
-`
+```
 
 
 
