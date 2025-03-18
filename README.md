@@ -14,8 +14,10 @@ You are tasked with building an account overview and transaction management appl
 **API Specification:**
 
 Endpoint: https://dd28b8de-0a7e-4a8d-b5d4-8f25f5a35069.mock.pstmn.io/accounts/ACT123456/statement/date
+
 TYPE: GET
-response: 
+
+Response: 
 
 ```json
 {
