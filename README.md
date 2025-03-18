@@ -24,7 +24,7 @@ You are tasked with building an account overview and transaction management appl
   
 **Notes:**
 - Please feel free to use the internet but not any AI tools.
-- Create a branch from the main branch and name it "develop-<name>", add as many as commits you want and after finishing the development please push your changes.
+- Create a branch from the main branch and name it "develop-(name)", add as many as commits you want and after finishing the development please push your changes.
 - Feel free to ask us anything
 
 
