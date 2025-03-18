@@ -106,13 +106,13 @@ response: 
 
 
 **Requirements:**
-* Architecture: Follow an architecture such as MVI or MVVM for the implementation.
-* Unit Testing: Write unit tests, primarily for testing the ViewModel.
-* Asynchronous Programming: Use Coroutines and Flows for managing asynchronous tasks and data flow.
-* Performance: Optimize the application for fast and efficient performance.
-* Readability: Ensure the code is easy to understand and follow.
-* Maintainability: The code should be organized in a way that allows easy future updates and modifications.
-* Testability: Design the app to be easily testable, with clear separation of concerns.
-* Scalability: Ensure the app can scale easily if new features or transaction data types are added.
-* Simplicity: Keep the design and implementation as simple as possible while fulfilling all the functional requirements.
+* **Architecture**: Follow an architecture such as MVI or MVVM for the implementation.
+* **Unit Testing**: Write unit tests, primarily for testing the ViewModel.
+* **Asynchronous** Programming: Use Coroutines and Flows for managing asynchronous tasks and data flow.
+* **Performance**: Optimize the application for fast and efficient performance.
+* **Readability**: Ensure the code is easy to understand and follow.
+* **Maintainability**: The code should be organized in a way that allows easy future updates and modifications.
+* **Testability**: Design the app to be easily testable, with clear separation of concerns.
+* **Scalability**: Ensure the app can scale easily if new features or transaction data types are added.
+* **Simplicity**: Keep the design and implementation as simple as possible while fulfilling all the functional requirements.
 
