@@ -9,6 +9,16 @@ You are tasked with building an account overview and transaction management appl
     * This screen should have the following additional features:
         * A dropdown menu for filtering transactions by type.
         * A search field where users can input keywords to filter transactions based on their query.
+     
+
+We have already finished the basic setup and implemented some of the boilerplate code.
+- `NavGraph` is for hosting the Jetpack navigation
+- An account overview screen is created which is `AccountOverviewScreen` with ViewModel
+- A transaction screen is created which is `TransactionScreen` with ViewModel
+
+
+***Screenshot***
+<img width="400" alt="Screenshot 2025-03-19 at 16 16 23" src="https://github.com/user-attachments/assets/56006d5e-e45a-46fe-abd3-09ee1099764a" />
 
 
 ***Requirements:***
