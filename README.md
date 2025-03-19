@@ -18,6 +18,7 @@ We have already finished the basic setup and implemented some of the boilerplate
 
 
 ***Screenshot***
+
 <img width="400" alt="Screenshot 2025-03-19 at 16 16 23" src="https://github.com/user-attachments/assets/56006d5e-e45a-46fe-abd3-09ee1099764a" />
 
 
