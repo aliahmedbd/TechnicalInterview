@@ -1,9 +1,10 @@
 package com.bankiline.banklineinterview.ui.transaction
 
 import androidx.lifecycle.ViewModel
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 
-class TransactionViewModel : ViewModel(){
-
+@HiltViewModel
+class TransactionViewModel @Inject constructor() : ViewModel(){
     // TODO Implement viewmodel functionality
-
 }
