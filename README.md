@@ -2,9 +2,9 @@
 ***Problem Statement:***
 
 You are tasked with building an account overview and transaction management application. The application should consist of two main screens:
-1. Account Overview Screen:
+1. **Account Overview Screen**:
     * This screen will display the user's opening and closing balances for the past three months, derived from the data provided by an API endpoint that returns a list of transactions.
-2. Transaction Screen:
+2. **Transaction Screen**:
     * From the account overview screen, users should be able to navigate to the transaction screen where a detailed list of transactions is displayed.
     * This screen should have the following additional features:
         * A dropdown menu for filtering transactions by type.
