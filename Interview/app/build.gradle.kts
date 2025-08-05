@@ -3,6 +3,8 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlinx.serialization)
+    id ("kotlin-kapt")// Apply the KAPT plugin
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -67,5 +69,8 @@ dependencies {
     // Retrofit
     implementation(libs.retrofit2.converter.gson)
     implementation(libs.retrofit2)
+
+    implementation(libs.hilt.android)
+    kapt("com.google.dagger:hilt-compiler:2.57")
 
 }
