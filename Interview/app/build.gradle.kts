@@ -3,6 +3,8 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlinx.serialization)
+    id("kotlin-kapt")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -64,8 +66,15 @@ dependencies {
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
 
-    // Retrofit
+    // Retrofit + Okhttp
     implementation(libs.retrofit2.converter.gson)
     implementation(libs.retrofit2)
+    implementation(libs.converter.gson.v300)
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
+
+    // Dagger Hilt
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.compiler)
 
 }
